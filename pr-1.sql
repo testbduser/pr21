@@ -1,0 +1,5 @@
+DROP DATABASE local_test;
+DROP USER user_1;
+CREATE USER user_1 SUPERUSER;
+CREATE DATABASE local_test;
+ALTER DATABASE local_test OWNER TO user_1;

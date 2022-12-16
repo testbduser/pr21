@@ -1,0 +1,4 @@
+DROP FOREIGN TABLE test.t3, test.t4;
+DROP SCHEMA test;
+CREATE SCHEMA test;
+IMPORT FOREIGN SCHEMA sch FROM SERVER test_server INTO test;

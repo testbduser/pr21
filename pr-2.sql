@@ -1,0 +1,4 @@
+DROP SERVER file_server;
+DROP EXTENSION file_fdw;
+CREATE EXTENSION file_fdw;
+CREATE SERVER file_server FOREIGN DATA WRAPPER file_fdw;

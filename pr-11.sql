@@ -1,0 +1,5 @@
+DROP DATABASE remote_test;
+DROP USER user_2;
+CREATE USER user_2 SUPERUSER;
+CREATE DATABASE remote_test;
+ALTER DATABASE remote_test OWNER TO user_2;

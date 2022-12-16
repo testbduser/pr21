@@ -1,0 +1,2 @@
+DROP EXTENSION dblink;
+CREATE EXTENSION dblink;

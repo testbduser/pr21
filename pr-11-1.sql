@@ -1,0 +1,5 @@
+DROP VIEW vt2_on_remote;
+DROP FOREIGN TABLE t1;
+DROP FOREIGN TABLE t2_on_remote;
+DROP SCHEMA test CASCADE;
+
